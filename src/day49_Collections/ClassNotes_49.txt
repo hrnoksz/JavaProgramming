@@ -1,0 +1,54 @@
+Java Day49
+Topic: Collections Continue
+				Set
+				Queue
+
+Package name: day49_Collections
+
+
+Collection (I): doesn't have get() method, because some child of collection does not have index number
+                such as set
+
+        List, Set and Queue are three child interface of collection
+
+		List (Interface): Has index, Allows Duplicates
+
+		        - ArrayList (most using for SDET)
+		        - LinkedList
+		        - Vector --> it is used for synchronizing thread
+		                     vector is synchronize version of arrayList
+		        - Stack:
+		                Last in, first out order (LIFO)
+
+
+		Set (Interface): It is used to avoid duplicates
+
+		        Does not have index, does not allow duplicates
+
+				HashSet (Class): order is random, therefore it is the fastest one, accepts null values
+				                 If the order is not matter, we use HashSet
+
+				LinkedHashSet (Class): keeps the insertion order
+				                       If the order is matter, we use LinkedHashSet
+				                       It accepts null values
+
+				TreeSet (Class): keeps sorted order, does not accept null
+
+
+		Queue(I): PriorityQueue (C), ArrayDeque (C) and LinkedList (C)
+
+		          child interface of Collection
+		          Does not have index, but LinkedList has index
+		          Duplicates are allowed
+		          Insertion order NOT preserved
+		          First-in, First out order (FIFO)!!!!!!!!!!!!!!!!!
+
+		          PriorityQueue (C): It maintains RANDOM order like HashSet
+		                             It does NOT accept null values like TreeSet
+
+                  ArrayDeque (C): It maintains the insertion order like LinkedHashSet
+                                  It accepts null values like HashSet and LinkedHashSet
+
+
+!!!!!!!!!!!!!!!!!!LinkedList is a special class which means it has "IS A" relationship both List and Queue
+
