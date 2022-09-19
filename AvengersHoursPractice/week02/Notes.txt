@@ -1,0 +1,29 @@
+Today's Topics:
+1.Arraylist
+    Arraylist is a resizable Array implementation
+    Arrays: fixed size, primitive/Object
+    Arraylist: flexible, not fixed size, stores Object only, comes with many useful methods
+2.Custom Methods
+    Access Modifier Specifier ReturnType MethodName(){
+    Statements
+    }
+    Access-Modifier:
+    public: always reachable
+    protected: same package or subclasses(inheritance)  in the different package
+    default: same package
+    private: same class
+
+3.Class & Object
+
+    What is Class? : Template/blueprint, can be created without object
+
+    instanceVariable: should be created outside all the methods and thet are attributes of objects
+    initialization is NOT mandatory; we initialize with object creation, they default values
+    we can access via Objects
+    Many copies
+
+    Car c = new Car();
+    c.instanceVariableName;
+
+    staticVariable = Belongs to class, ONE copy, reach by ClassName and ObjectName
+    initialization is NOT mandatory

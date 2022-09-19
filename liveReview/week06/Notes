@@ -1,0 +1,15 @@
+- for loop : repeatable if statement
+
+***** Only gets executed if the condition is true. ***********
+
+     for (initialization; Condition ; Iteration ) {
+     statement
+     }
+
+     initialization : starting point
+
+     Condition : ending point, created based on initialization
+
+     Iteration: co-related to Condition. MUST be capable enough to make the condition false
+
+    { } curly braces are blocks in JAVA

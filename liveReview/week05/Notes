@@ -1,0 +1,26 @@
+
+Today's Topics:
+    - Review Scanner class, how to use it
+    - Strings
+        * methods that come from class
+strings are created in two ways:
+    -literal
+    -new keyword
+* when we create literal way, string is created in the "String Pool" (string constant pool
+* immutable: not changing
+* When we use string methods: substring, uppercase method...string manipulation methods,
+the string is not changing in memory, just creating another one
+
+*Strings: sequence of characters, each character representative number called "index number"
+index number starts from ZERO
+
+        String str = "Java";
+                      0123
+
+* is the length and index mean the same thing?
+the length str = 4
+LENGTH STARTS FROM ONE
+
+// Why did we create Dynamic Substring example?
+    -You want to find the index of a string then using
+    this index you want to substring a certain part of the String

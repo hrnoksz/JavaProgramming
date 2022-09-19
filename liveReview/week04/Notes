@@ -1,0 +1,29 @@
+Conditional Statements in JAVA (Control FLOW Statement)
+If Condition;
+    -single if statements(door: opens only if condition is true)
+    -if...else...
+    -if...else if...else if...else
+    -nested if
+Switch: very similar multi branch if statement (like an elevator)
+
+Ternary Operator:
+    --> Variable = condition ? trueValue : falseValue;
+
+==============================================================
+
+All conditionals work with boolean values (true, false)
+
+* Comparison operators
+    >, <, >=, <=, ==, !=
+* boolean variables
+    - boolean isMarried = false;
+* String : equals() method reveal boolean result
+* isDisplayed =  --> produces boolean result
+
+=====================================================================
+
+ Sometimes we can skip using curly {} braces with if conditions
+ WHEN:
+ There is only one line under if statement
+
+ =========================================================================

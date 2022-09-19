@@ -1,0 +1,30 @@
+
+Topics
+    1.Type casting
+        a.Implicit casting
+                Done by compiler
+                smaller to bigger data type
+                No data loss
+                Widening
+
+        b.Explicit casting
+                There is data loss
+                Done by developer/human/tester/coder
+                bigger to smaller data type
+                Narrowing
+
+    2. String Methods:
+
+                charAt(): index and you get in return --> char
+                length(): no parameter -> how many chars in the String
+                replace():
+                replaceFirst():
+                trim()
+                lastIndexOf()
+                contains()
+                isEmpty():
+                isBlank()
+                toUpperCase()
+                toLowerCase()
+
+Dot Operator: objectName. to call attribute and methods
