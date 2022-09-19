@@ -1,0 +1,38 @@
+Automation Engineer (30 Weeks Long)
+    - JAVA
+    - HTML
+    - UI (User Interface) - Front End
+        * Selenium Webdriver
+    - Back End Testing
+        * API (RestAssured Library)
+        * Database (SQL based) - JDBC (Java DataBase Connectivity)
+    - Version Control System : GIT -- GITHUB
+    - CI (Continuous integration) Tools : Jenkins
+    - Project Management, Team Management, Bug Management : JIRA
+
+ArrayList:
+    -Dynamic Arrays : at the background  it using arrays
+    -ordered collection of data of the same type
+    -it only accepts Object
+    -we have to use Wrapper classes
+    -ordered, index based
+
+ArrayList Methods:
+-> how to add element: add(value)
+-> add(index, value);
+-> how to read: get(index);
+-> size: returns the count of elements
+-> contains : checks if the value is in the arraylist
+
+OBJECTS:
+
+    * Attribute (state of the object): data fields, instance variables
+
+    * Behaviour (actions) : methods, instance methods
+
+Classes:
+    Templates, blueprints of objects
+
+instance variables: every object of that class has its own values
+
+instance methods: every object of that class has its own implementation
