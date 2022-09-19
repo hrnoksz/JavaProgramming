@@ -1,0 +1,91 @@
+Java Day48
+Topic: Collections Intro
+
+package name: day48_Collections
+
+
+Data Structures: work with data
+
+	Array
+	Collection
+	Map
+
+Array: size is fixed
+	   supports both primitives & non-primitives
+
+Collection (Interface): Collection is a group of individual objects as a single entity
+                        Size is dynamic
+			            supports non-primitives ONLY
+
+			List (Interface): accepts duplicates, has index numbers
+
+					ArrayList (Class): internally uses array
+                                       Advantage of using array internally is
+									   accessing/retrieving of the element is faster ( get() )
+
+					LinkedList (Class): internally uses doubly linked list
+                                        Advantage of using doubly linked list internally is
+									    adding/removing of element is faster ( add()/remove() )
+
+					Vector (Class): internally uses array
+								    it is Synchronized ==> Thread-safe
+
+					Stack (Class): Is synchronized
+							       Last in, first out order (LIFO)
+
+
+			Set (Interface): does not accept duplicates, does not have index numbers
+
+				HashSet (Class): order is random //the fastest one//order is not guarantee
+
+				LinkedHashSet (Class): keeps the insertion order as it is
+
+				TreeSet (Class): keeps the sorted order
+							     does not accept null values
+
+			Queue(Interface)
+
+Synchronized:
+            One thread being executed at time in order to achieve thread safety
+            multiple threads are being executed one thread at time
+
+			advantage: thread-safe (more safer)
+			disadvantage: slower
+
+process: execution instance of a program
+
+thread: A sequence of execution within process
+
+multi-threading: two or more threads being executed within the process
+
+multi-tasking: two or more process are running
+
+concurrently vs parallely:
+
+		concurrently:  1000 * 5 ===> 5000 seconds ===> 10000 threads
+
+		Chrome browser (process)	 ===> 10000 threads
+
+
+		Parallely: 	200 * 5 = 1000 seconds
+
+			chrome browser1	 (process)  ===> 200
+			chrome browser2  (process)	===> 200
+			chrome browser3  (process)  ===> 200
+			chrome browser4	 (process)  ===> 200
+			chrome browser5  (process)  ===> 200
+
+ArrayList vs LinkedList vs Vector vs Stack:
+
+		All of them are Lists (allows duplicates, has index numbers)
+
+		ArrayList: searching elements are faster
+
+		LinkedList: insertion & deletion of elements are faster
+
+		Vector: Same as ArrayList but Synchronized
+
+		Stack: Has Last-in, first-out (LIFO) logic
+
+
+Polymorphism short quiz due by 11:45 am
