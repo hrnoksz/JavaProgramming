@@ -1,0 +1,52 @@
+Java Day50
+Topics: 1. Collection continue - Iterable
+		2. Collection Review
+
+package name: day50_Collections
+
+Collections Framework: consists of multiple interface and each interface is implemented by classes
+			     Collections is root
+
+	Collection (I): it is dynamic sized
+					it has ready methods
+					it supports for non-primitives ONLY
+
+					it can be extended by List, Set, Queue
+
+				List (I):   duplicates are allowed, has index number-->insertion order is preserved
+
+						ArrayList (C): it is array based class, therefore searching/accessing elements is faster.
+
+						LinkedList (C): insertion /deletion of the element is faster
+
+						Vector (C): is Synchronized ==> thread-safe, just like ArrayList
+
+						Stack (C): is Synchronized ==> thread-safe. LIFO
+
+								pop() ===> LIFO this method is only for stack class
+
+
+				Set (I): duplicates are not allowed, does not have index number
+
+						HashSet (C): Maintains random order. Its Performence is Fastest
+
+						LinkedHashSet (C): Maintains insertion order
+
+						TreeSet (C): Maintains sorted order, does not accept null
+
+
+				Queue (I): duplicates are allowed, does not have index number. FIFO
+
+							poll() ===> FIFO
+
+						PriorityQueue (C): Maintains random order
+
+
+						ArrayDequeue (C): Maintains insertion order
+
+
+						LinkedList (C): Maintains insertion order
+
+								    Both List and Queue, Therefore, it has index number and poll() method
+
+
