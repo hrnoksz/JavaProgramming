@@ -1,0 +1,34 @@
+Today's Topics:
+    - Inheritance
+            * We will try to imitate like we are testing Amazon Web Page Shopping Feature
+            - parent class: Browser
+
+    Overriding: when you need more specialized method for the child class you override the method in parent class
+
+                * there must be IS-A relationship
+                * method names must be SAME
+                * same parameter
+                * access modifier should be same or more visible
+                * return type: for primitive it must be same, for object type has to be covariant
+
+    What are the differences between overloading and overriding?
+
+        Method Overloading
+        Method Overriding
+        Method Hiding
+
+    Inheritance Types:
+        - Single Inheritance:
+        - Multi-level Inheritance:
+        - Hierarchical Inheritance
+
+    Let's create a Test Case together
+        1. I need to set my browser and OS type
+        2. Navigate to App's page
+        3. Navigate to laptop and select samsung PC
+        4. Go to product's page, buy 2 of them, add to cart
+        5. Go to cart, fill all the fields and order
+        6. Check the amount and prices are as expected.
+
+    - Final Key Word:
+
